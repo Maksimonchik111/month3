@@ -17,7 +17,6 @@ def main(page: ft.Page):
                 age_info.color = ft.Colors.RED
         age_input.value = ''    
 
-        page.update()
 
 
     age_info = ft.Text('')
