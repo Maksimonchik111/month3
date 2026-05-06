@@ -74,7 +74,6 @@ def main(page: ft.Page):
     layout = ft.Column(
         controls=[
             top_row,
-            ft.Divider(), # Визуальный разделитель
             text_hello,
             input_row,
             greeting_text
